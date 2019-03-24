@@ -8,16 +8,24 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-h1 {
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1,
+.page-title {
 	font-family: mrs-eaves-roman-small-caps, sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 2em;
 	margin: 1em 0 .25em;
 	text-align: center;
+	display: block;
 }
 
-h2 {
+h2,
+.page-subtitle {
 	font-family: mrs-eaves, serif; 
 	font-weight: 400;
 	font-style: italic;
@@ -39,6 +47,19 @@ h2 {
 	margin: 0 auto;
 	padding: 1em;
 	box-sizing: border-box;
+}
+
+nav {
+	position: absolute;
+	top: 1em;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+nav a {
+	padding: 1em;
+	margin: 0 auto;
 }
 
 article {
@@ -79,6 +100,11 @@ section {
 	min-height: 100vh;
 }
 
+footer {
+	text-align: center;
+	padding: 1em;
+}
+
 .s-green {
 	background-color: #1f7a8c;
 	color: white;
@@ -105,10 +131,19 @@ section {
 	padding: 1em;
 	margin: 0;
 	display: block;
+	box-sizing: border-box;
 }
 
 .book .author:before {
 	content: ' – ';
+}
+
+.page-content {
+	font-size: 20px;
+}
+
+.page-content img {
+	padding: 2em 0;
 }
 
 

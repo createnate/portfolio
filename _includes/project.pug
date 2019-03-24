@@ -1,0 +1,18 @@
+doctype html
+html
+	head
+		link(rel='stylesheet', type='text/css', href='/css/style.css')
+		link(rel='stylesheet', href='https://use.typekit.net/izg5jgb.css')
+	body
+		nav
+			a(href='/') Home
+		section.s-green
+			div.wrapper
+				span.page-title Nathan Phillips
+				h1.page-subtitle #{title}
+				div.preview !{preview}
+		section.s-white
+			div.wrapper
+				div.page-content !{content}
+		footer
+			p &copy; Nathan Phillips 2019. #[a(href='/') Back to home.]
