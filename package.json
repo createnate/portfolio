@@ -1,0 +1,15 @@
+{
+  "name": "swing",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.23.0",
+    "underscore": "^1.9.1"
+  }
+}
