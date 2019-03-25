@@ -5,12 +5,24 @@ html
 		link(rel='stylesheet', href='https://use.typekit.net/izg5jgb.css')
 	body
 		nav
-			a(href='/') Home
+			a(href='/').back &lsaquo; Back to Home
 		section.s-green
 			div.wrapper
 				span.page-title Nathan Phillips
 				h1.page-subtitle #{title}
-				div.preview !{preview}
+				article
+					div.part.preview !{preview}
+					div.part.preview !{preview2}
+				ul.social
+					li
+						a(href='https://twitter.com/createnate')
+							i.icofont-twitter
+					li
+						a(href='mailto:nathan@nathanphillips.net')
+							i.icofont-email
+					li
+						a(href='https://github.com/createnate')
+							i.icofont-github
 		section.s-white
 			div.wrapper
 				div.page-content !{content}
